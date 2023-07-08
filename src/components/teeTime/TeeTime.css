@@ -1,0 +1,115 @@
+.teetime-background {
+  background-image: url(../../images/TeeTimeBackground.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: contrast(1) brightness(0.9) saturate(0.9);
+  height: 650px;
+  width: auto;
+  display: block;
+  color: black;
+  margin: 0;
+}
+
+.teetime-flex {
+  background: #ffe3b0e0;
+  width: 30%;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.teetime-flex h1 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.teetime-flex p {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+
+.teetime-flex h2 {
+  text-align: center;
+  padding-top: 5%;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: black;
+}
+
+.teetime.open {
+  text-decoration: underline;
+}
+
+.teetime-box {
+  border: 1px none #ffe3b0e0;
+  display: inline-block;
+}
+
+.teetime-box p {
+  margin-left: auto;
+}
+
+.teetime-box ul {
+  list-style-type: none;
+  padding-top: 5px;
+  margin-left: 10%;
+  line-height: 25px;
+}
+
+.teetime-box ul li:hover {
+  background-color: #4caf50;
+}
+
+.teetime-box button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.teetime-box button:hover {
+  background-color: #45a049;
+}
+
+.booking-confirmed-message {
+  color: rgb(255, 255, 255);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(45, 141, 7);
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 9999;
+  width: 50%;
+  height: 50%;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.FaTimesCircle {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .teetime-flex {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .teetime-flex {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
